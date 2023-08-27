@@ -54,9 +54,9 @@ extension Color {
 }
 
 extension UIColor {
-    public static let themeYellowD = UIColor(hex: 0x6a00ff) // 0xffa800
+    public static let themeYellowD = UIColor(hex: 0xa171fb) // 0xffa800
     public static let themeYellowL = UIColor(hex: 0xa171fb)
-    public static let themePurpleD = UIColor(hex: 0x6a00ff)
+    public static let themePurpleD = UIColor(hex: 0xa171fb) // 0x6a00ff
     public static let themePurpleL = UIColor(hex: 0xa171fb)
     public static let themeGreenD = UIColor(hex: 0x05c46b)
     public static let themeGreenL = UIColor(hex: 0x04ad5f)
@@ -85,8 +85,8 @@ extension UIColor {
     public static let themeGray50 = UIColor(hex: 0x808085, alpha: 0.5)
     public static let themeYellow50 = UIColor(hex: 0xa171fb, alpha: 0.5)
     public static let themeYellow20 = UIColor(hex: 0xa171fb, alpha: 0.2)
-    public static let themePurple50 = UIColor(hex: 0x6a00ff, alpha: 0.5)
-    public static let themePurple20 = UIColor(hex: 0x6a00ff, alpha: 0.2)
+    public static let themePurple50 = UIColor(hex: 0xa171fb, alpha: 0.5)
+    public static let themePurple20 = UIColor(hex: 0xa171fb, alpha: 0.2)
     public static let themeLightPurple50 = UIColor(hex: 0xa171fb, alpha: 0.5)
     public static let themeLightPurple20 = UIColor(hex: 0xa171fb, alpha: 0.2)
 
@@ -111,8 +111,8 @@ extension UIColor {
     public static var themeJeremy: UIColor { color(dark: .themeSteel20, light: .themeSteelLight) }
     public static var themeElena: UIColor { color(dark: .themeSteel20, light: .themeLightGray) }
     public static var themeLawrence: UIColor { color(dark: .themeSteelDark, light: .themeWhite) }
-    public static var themeBrandDark: UIColor { color(dark: .themePurpleD, light: .themePurpleL) }
-    public static var themeBrandLight: UIColor { color(dark: .themePurpleD, light: .themePurpleL) }
+    public static var themeBrandDark: UIColor { color(dark: .themePurpleL, light: .themePurpleL) }
+    public static var themeBrandLight: UIColor { color(dark: .themePurpleL, light: .themePurpleL) }
 
     public static var themeLawrencePressed: UIColor { color(dark: .themeLawrencePressedD, light: .themeLawrencePressedL) }
     public static var themeClaude: UIColor { color(dark: .themeDark, light: .themeWhite) }
