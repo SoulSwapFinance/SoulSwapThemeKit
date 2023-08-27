@@ -54,7 +54,7 @@ extension Color {
 }
 
 extension UIColor {
-    public static let themeYellowD = UIColor(hex: 0xa171fb) // 0xffa800
+    public static let themeYellowD = UIColor(hex: 0x6a00ff) // 0xffa800
     public static let themeYellowL = UIColor(hex: 0xa171fb)
     public static let themePurpleD = UIColor(hex: 0x6a00ff)
     public static let themePurpleL = UIColor(hex: 0xa171fb)
@@ -82,8 +82,8 @@ extension UIColor {
     public static let themeSteel20 = UIColor(hex: 0x73798c, alpha: 0.2)
     public static let themeSteel30 = UIColor(hex: 0x73798c, alpha: 0.3)
     public static let themeGray50 = UIColor(hex: 0x808085, alpha: 0.5)
-    public static let themeYellow50 = UIColor(hex: 0xa171fb, alpha: 0.5)
-    public static let themeYellow20 = UIColor(hex: 0xa171fb, alpha: 0.2)
+    public static let themeYellow50 = UIColor(hex: 0x6a00ff, alpha: 0.5)
+    public static let themeYellow20 = UIColor(hex: 0x6a00ff, alpha: 0.2)
     public static let themePurple50 = UIColor(hex: 0x6a00ff, alpha: 0.5)
     public static let themePurple20 = UIColor(hex: 0x6a00ff, alpha: 0.2)
     public static let themeLightPurple50 = UIColor(hex: 0xa171fb, alpha: 0.5)
