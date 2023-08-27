@@ -1,5 +1,5 @@
 import SwiftUI
-//import UIKit
+import UIKit
 import UIExtensions
 
 extension Color {
@@ -63,6 +63,7 @@ extension UIColor {
     public static let themeRedD = UIColor(hex: 0xf43a4f)
     public static let themeRedL = UIColor(hex: 0xff3d43)
     public static let themeBlack = UIColor(hex: 0x000000)
+//    vibrat blue
     public static let themeIssykBlue = UIColor(hex: 0x3372FF)
     public static let themeGray = UIColor(hex: 0x808085)
     public static let themeLightGray = UIColor(hex: 0xc8c7cc)
@@ -82,8 +83,8 @@ extension UIColor {
     public static let themeSteel20 = UIColor(hex: 0x73798c, alpha: 0.2)
     public static let themeSteel30 = UIColor(hex: 0x73798c, alpha: 0.3)
     public static let themeGray50 = UIColor(hex: 0x808085, alpha: 0.5)
-    public static let themeYellow50 = UIColor(hex: 0x6a00ff, alpha: 0.5)
-    public static let themeYellow20 = UIColor(hex: 0x6a00ff, alpha: 0.2)
+    public static let themeYellow50 = UIColor(hex: 0xa171fb, alpha: 0.5)
+    public static let themeYellow20 = UIColor(hex: 0xa171fb, alpha: 0.2)
     public static let themePurple50 = UIColor(hex: 0x6a00ff, alpha: 0.5)
     public static let themePurple20 = UIColor(hex: 0x6a00ff, alpha: 0.2)
     public static let themeLightPurple50 = UIColor(hex: 0xa171fb, alpha: 0.5)
@@ -93,9 +94,11 @@ extension UIColor {
     public static let themeRed50 = UIColor(hex: 0xf43a4f, alpha: 0.5)
     public static let themeLawrencePressedD = UIColor(hex: 0x353842)
     public static let themeLawrencePressedL = UIColor(hex: 0xe3e4e8)
+//    true blue (vibrant)
     public static let themeStronbuy = UIColor(hex: 0x1a60ff)
     public static let themeSteelDark10 = UIColor(hex: 0x1c1f27)
     public static let themeSteelLight10 = UIColor(hex: 0xd6d7dd)
+//    pale blue
     public static let themeLagunaD = UIColor(hex: 0x4a98e9)
     public static let themeLagunaL = UIColor(hex: 0x4692da)
 }
