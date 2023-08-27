@@ -108,8 +108,8 @@ extension UIColor {
     public static var themeJeremy: UIColor { color(dark: .themeSteel20, light: .themeSteelLight) }
     public static var themeElena: UIColor { color(dark: .themeSteel20, light: .themeLightGray) }
     public static var themeLawrence: UIColor { color(dark: .themeSteelDark, light: .themeWhite) }
-    public static var themeBrandDark: UIColor { color(dark: .themeBrandDark, light: .themeBrandDark) }
-    public static var themeBrandLight: UIColor { color(dark: .themeBrandLight, light: .themeBrandLight) }
+    public static var themeBrandDark: UIColor { color(dark: .themePurpleD, light: .themePurpleL) }
+    public static var themeBrandLight: UIColor { color(dark: .themePurpleD, light: .themePurpleL) }
 
     public static var themeLawrencePressed: UIColor { color(dark: .themeLawrencePressedD, light: .themeLawrencePressedL) }
     public static var themeClaude: UIColor { color(dark: .themeDark, light: .themeWhite) }
