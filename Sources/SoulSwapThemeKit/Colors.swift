@@ -20,6 +20,11 @@ extension Color {
     public static let themeSteel30 = Color.themeSteel.opacity(0.3)
     public static let themeYellow20 = Color.themeYellow.opacity(0.2)
     public static let themeYellow50 = Color.themeYellow.opacity(0.5)
+    public static let themePurple20 = Color.themeBrandDark.opacity(0.2)
+    public static let themePurple50 = Color.themeBrandDark.opacity(0.5)
+    public static let themeLightPurple20 = Color.themeBrandLight.opacity(0.2)
+    public static let themeLightPurple50 = Color.themeBrandLight.opacity(0.5)
+
     public static let themeRed50 = Color.themeRed.opacity(0.5)
 
     public static let themeJacob = Color("Jacob", bundle: Bundle.module)
@@ -52,6 +57,8 @@ extension Color {
 extension UIColor {
     public static let themeYellowD = UIColor(hex: 0xffa800)
     public static let themeYellowL = UIColor(hex: 0xff8a00)
+    public static let themePurpleD = UIColor(hex: 0x6a00ff)
+    public static let themePurpleL = UIColor(hex: 0xa171fb)
     public static let themeGreenD = UIColor(hex: 0x05c46b)
     public static let themeGreenL = UIColor(hex: 0x04ad5f)
     public static let themeRedD = UIColor(hex: 0xf43a4f)
@@ -78,6 +85,11 @@ extension UIColor {
     public static let themeGray50 = UIColor(hex: 0x808085, alpha: 0.5)
     public static let themeYellow50 = UIColor(hex: 0xffa800, alpha: 0.5)
     public static let themeYellow20 = UIColor(hex: 0xffa800, alpha: 0.2)
+    public static let themePurple50 = UIColor(hex: 0x6a00ff, alpha: 0.5)
+    public static let themePurple20 = UIColor(hex: 0x6a00ff, alpha: 0.2)
+    public static let themeLightPurple50 = UIColor(hex: 0xa171fb, alpha: 0.5)
+    public static let themeLightPurple20 = UIColor(hex: 0xa171fb, alpha: 0.2)
+
     public static let themeGreen50 = UIColor(hex: 0x05c46b, alpha: 0.5)
     public static let themeRed50 = UIColor(hex: 0xf43a4f, alpha: 0.5)
     public static let themeLawrencePressedD = UIColor(hex: 0x353842)
