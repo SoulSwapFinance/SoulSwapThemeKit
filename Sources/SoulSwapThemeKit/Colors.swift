@@ -32,7 +32,6 @@ extension Color {
     public static let themeLucian = Color("Lucian", bundle: Bundle.module)
     public static let themeLeah = Color("Leah", bundle: Bundle.module)
     public static let themeAndy = Color("Andy", bundle: Bundle.module)
-    public static let themeAndy = Color("Andy", bundle: Bundle.module)
     public static let themeBrandDark = Color("BrandDark", bundle: Bundle.module)
     public static let themeBrandLight = Color("BrandLight", bundle: Bundle.module)
 
