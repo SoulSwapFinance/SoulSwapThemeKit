@@ -35,6 +35,8 @@ struct ColorsView: View {
         CustomColor(name: "Jeremy", color: .themeJeremy),
         CustomColor(name: "Laguna", color: .themeLaguna),
         CustomColor(name: "Lawrence", color: .themeLawrence),
+        CustomColor(name: "BrandDark", color: .themeBrandDark),
+        CustomColor(name: "BrandLight", color: .themeBrandLight),
         CustomColor(name: "LawrencePressed", color: .themeLawrencePressed),
         CustomColor(name: "Nina", color: .themeNina),
         CustomColor(name: "Raina", color: .themeRaina),

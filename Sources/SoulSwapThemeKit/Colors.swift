@@ -1,5 +1,5 @@
 import SwiftUI
-import UIKit
+//import UIKit
 import UIExtensions
 
 extension Color {
@@ -27,6 +27,10 @@ extension Color {
     public static let themeLucian = Color("Lucian", bundle: Bundle.module)
     public static let themeLeah = Color("Leah", bundle: Bundle.module)
     public static let themeAndy = Color("Andy", bundle: Bundle.module)
+    public static let themeAndy = Color("Andy", bundle: Bundle.module)
+    public static let themeBrandDark = Color("BrandDark", bundle: Bundle.module)
+    public static let themeBrandLight = Color("BrandLight", bundle: Bundle.module)
+
     public static let themeBlackTenTwenty = Color("BlackTenTwenty", bundle: Bundle.module)
     public static let themeBran = Color("Bran", bundle: Bundle.module)
     public static let themeClaude = Color("Claude", bundle: Bundle.module)
@@ -93,6 +97,9 @@ extension UIColor {
     public static var themeJeremy: UIColor { color(dark: .themeSteel20, light: .themeSteelLight) }
     public static var themeElena: UIColor { color(dark: .themeSteel20, light: .themeLightGray) }
     public static var themeLawrence: UIColor { color(dark: .themeSteelDark, light: .themeWhite) }
+    public static var themeBrandDark: UIColor { color(dark: .themeBrandDark, light: .themeBrandDark) }
+    public static var themeBrandLight: UIColor { color(dark: .themeBrandLight, light: .themeBrandLight) }
+
     public static var themeLawrencePressed: UIColor { color(dark: .themeLawrencePressedD, light: .themeLawrencePressedL) }
     public static var themeClaude: UIColor { color(dark: .themeDark, light: .themeWhite) }
     public static var themeAndy: UIColor { color(dark: .themeBlack50, light: .themeSteel20) }
